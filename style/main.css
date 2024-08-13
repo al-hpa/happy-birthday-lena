@@ -451,7 +451,8 @@ h1 {
 /* General styles for mobile devices */
 @media (max-width: 600px) {
   .four .text-box {
-    width: 450px;
+    width: 300px;
+    padding: 10px;
     box-sizing: border-box; /* Ensure padding is included in the width */
   }
 
@@ -470,13 +471,13 @@ h1 {
   }
 
   .one h1 {
-    font-size: 20px; /* Adjust font size */
+    font-size: 18px; /* Adjust font size */
     margin-bottom: 10px; /* Add margin to prevent overlap */
     font-weight: bold;
   }
 
   .two {
-    font-size: 24px; /* Adjust font size */
+    font-size: 22px; /* Adjust font size */
     margin-top: 40px; /* Remove top margin to prevent overlap */
     font-weight: bold;
   }
