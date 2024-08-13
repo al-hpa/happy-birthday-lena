@@ -479,7 +479,7 @@ h1 {
 
   .two {
     font-size: 22px; /* Adjust font size */
-    margin-top: 40px; /* Remove top margin to prevent overlap */
+    margin-top: 60px; /* Remove top margin to prevent overlap */
     font-weight: bold;
   }
 
