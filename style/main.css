@@ -5,7 +5,7 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  color:#FFB6C1;
+  color: #FFB6C1;
 }
 
 .song {
@@ -91,10 +91,9 @@ body {
   display: inline-block;
 }
 
-.idea-6 span{
+.idea-6 span {
   font-size: 15rem;
 }
-
 
 .six {
   position: relative;
@@ -106,13 +105,11 @@ body {
   display: inline-block;
   height: 350px;
   max-width: 100%;
-  /* height: auto; */
 }
 
 .six .hat {
   left: 41.5%;
   position: absolute;
-  /* transform: scale(0.1); */
   top: -35%;
   width: 80px;
 }
@@ -258,6 +255,7 @@ body {
 
   .four .text-box {
     width: 90%;
+    padding: 20px;
   }
 
   .text-box .fake-btn {
@@ -274,7 +272,6 @@ body {
   }
 
   .six .hat {
-    /* top: -20px; */
     width: 50px;
   }
 
@@ -289,6 +286,44 @@ body {
   .nine p {
     font-size: 1.5rem;
     font-weight: lighter;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .one {
+    font-size: 2rem;
+  }
+
+  .two {
+    font-size: 3rem;
+  }
+
+  .three {
+    font-size: 2.5rem;
+  }
+
+  .five p {
+    font-size: 1.5rem;
+  }
+
+  .five .idea-5 {
+    font-size: 3rem;
+  }
+
+  .idea-6 span {
+    font-size: 8rem;
+  }
+
+  .wish-hbd {
+    font-size: 2.5em;
+  }
+
+  .wish h5 {
+    font-size: 1.5rem;
+  }
+
+  .nine p {
+    font-size: 1.2rem;
   }
 }
 
@@ -388,14 +423,17 @@ body {
   color: #8b6a60;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-style:italic;
+  font-style: italic;
   text-align: center;
   h1 {
     font-size: 1.4em;
   }
 }
 
-canvas{display:block}
+canvas {
+  display: block;
+}
+
 h1 {
   position: absolute;
   top: 20%;
@@ -408,4 +446,42 @@ h1 {
   user-select: none;
 }
 
+/* Add this to your main.css file */
 
+/* General styles for mobile devices */
+@media (max-width: 600px) {
+  .four .text-box {
+    width: 450px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+
+  .four .hbd-chatbox {
+    font-size: 14px; /* Adjust font size for better readability */
+  }
+
+  .five .idea-6 span {
+    display: block; /* Ensure each span is on a new line */
+    font-size: 20px; /* Adjust font size */
+  }
+
+  .five .idea-5 {
+    display: block; /* Ensure each span is on a new line */
+    font-size: 20px; /* Adjust font size */
+  }
+
+  .one h1 {
+    font-size: 20px; /* Adjust font size */
+    margin-bottom: 10px; /* Add margin to prevent overlap */
+    font-weight: bold;
+  }
+
+  .two {
+    font-size: 24px; /* Adjust font size */
+    margin-top: 40px; /* Remove top margin to prevent overlap */
+    font-weight: bold;
+  }
+
+  .container {
+    padding: 10px; /* Add padding to the container */
+  }
+}
