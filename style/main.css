@@ -451,9 +451,10 @@ h1 {
 /* General styles for mobile devices */
 @media (max-width: 600px) {
   .four .text-box {
-    width: 300px;
+    width: 200px;
     padding: 10px;
-    box-sizing: border-box; /* Ensure padding is included in the width */
+    box-sizing: unset; /* Ensure padding is included in the width */
+    border: none;
   }
 
   .four .hbd-chatbox {
